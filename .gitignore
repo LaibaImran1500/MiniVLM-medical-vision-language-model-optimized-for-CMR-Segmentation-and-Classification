@@ -1,0 +1,31 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Jupyter / Colab notebooks footprints
+.ipynb_checkpoints/
+*.ipynb
+
+# Local volumes, datasets, and model weights
+emidec_data/
+data/
+checkpoints/
+results/
+*.zip
+*.pth
+
+# Generated tables and figures
+*.csv
+*.png
+
+# Environment configurations and hidden credentials
+.env
+.workspace/
+
+# Operating system and IDE configurations
+.DS_Store
+.vscode/
+.idea/
