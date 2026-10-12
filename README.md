@@ -123,6 +123,9 @@ Upon execution completion, the directory layout will look like this:
 The underlying execution script contains fallback wrappers for development phases. If `DOCKER_MODE` is left unset or evaluated as `false`, the pipeline defaults to a notebook environment and expects your data archive to be present on Google Drive under:
 `/content/drive/MyDrive/MiniVLM_EMIDEC/emidec_training.zip`
 
-```
+```# Set DOCKER_MODE to false to use the notebook environment
+export DOCKER_MODE=false
 
+# Expected dataset archive path in Google Drive
+/content/drive/MyDrive/MiniVLM_EMIDEC/emidec_training.zip
 ```
